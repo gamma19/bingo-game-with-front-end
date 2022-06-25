@@ -1,0 +1,238 @@
+﻿body{
+	background-color: #BAF0B1; 
+}
+
+button{
+	color: #2F3636;
+	border: 2px solid #156B08;
+	background-color: white;
+	border-radius: 5px;
+}
+
+button:hover{
+	background-color: #156B08; /*#D8FA3C;*/
+	box-shadow: 0 0 6px #202020;
+	color: white
+}
+
+/* Settings */
+.start-box{
+	border: 3px solid #156B08;
+	border-radius: 20px;
+ 	display: block;
+	/*text-align: center;*/
+	background-color: white;
+	color: #2F3636;
+	padding: 2vh 0;
+	margin: 30vh auto;
+	box-shadow: 0 0 7px #2F3636;
+	width: 29%;
+	height: 36vh;
+}
+
+.main .start-box{
+	display: none;
+}
+
+.won .start-box{
+	display: none;
+}
+
+.loose .start-box{
+	display: none;
+}
+
+.text{
+	display: inline-block;
+	width: 63%;
+	text-align: left;
+	margin-left: 10%; 
+}
+
+.options{
+	display: inline-block;
+	width: 15%;
+	text-align: right;
+	margin-right: 10%;
+}
+
+.start-box p{
+	/*display: block;*/
+	margin-left: 4%;
+	font-size: 3vh;
+}
+
+.start-box button{
+	display: block;
+	margin: 3vh auto;
+	width: 80%;
+	height: 5vh;
+}
+
+.input{
+	width: 95%;
+	/*margin-left: 5%;*/
+	height: 3.5vh;
+	margin-top: 3.5vh
+}
+
+#numbers{
+	height: 3.6vh
+}
+
+
+/* Main form */
+.main-box{
+	display: none;
+}
+
+.main .main-box{
+	display: block;
+}
+
+.loose .main-box{
+	display: none;
+}
+
+.won .main-box{
+	display: none;
+}
+
+.number-field{
+	background-color: #C4B534;
+	width: 30%;
+	height: 100vh;
+	box-shadow: 0 0 7px black;
+	position: fixed;
+	left:0;
+	top: 0;
+	z-index: 3;
+}
+
+.number-field h1{
+	color: #240F00;
+	text-align: center;
+	margin-top: 5vh;
+}
+
+#number{
+	background-color: #F9EB75;
+	width: 90%;
+	height: 42vh;
+	margin: 2vh auto;
+	box-shadow: 0 0 6px #202020 inset;
+	color: #240F00;
+	text-align: center;
+}
+
+.number{
+	font-size: 14rem;
+}
+
+.answer{
+	font-size: 2rem;
+}
+
+.number-field button:first-child{
+	display: inline-block;
+	border-color: #242000;
+	color: #81740A;
+	background-color: #242000;
+	width: 42%;
+	height: 6vh;
+	margin: 3%;
+}
+
+.number-field button:nth-child(4){
+	display: block;
+	border-color: #242000;
+	color: #81740A;
+	background-color: #242000;
+	width: 90%;
+	height: 12vh;
+	margin: 4vh auto 2vh;
+	font-size: 2rem;
+	border-radius: 5px
+
+}
+
+.number-field button:last-child{
+	border-color: #81740A;
+	color: #242000;
+	background-color: #81740A;
+	display: block;
+	width: 90%;
+	height: 12vh;
+	margin: 0 auto;
+	font-size: 2rem;
+	border-radius: 5px;
+}
+
+.cards-field{
+	width: 70%;
+	margin-left: 30%;
+	z-index: 1;
+	
+}
+
+.card{
+	border: 3px solid #156B08;
+	border-radius: 15px;
+	clear:	both;
+	background-color: rgb(255, 255, 255);
+	color: #2F3636;
+	width: 70%;
+	float: right;
+	margin: 5% 5%;
+		
+}
+
+
+.number-box{
+	border: 1px solid #2F3636;
+	display:inline-block;
+	border-right: 0;
+	margin:0;
+	text-align: center;
+	font-size: 2rem;
+}
+
+.d3{
+	width: 12%;
+}
+
+.chosenNumber{
+	background-color: #3BA22B;
+}
+
+.number-box:hover{
+	background-color: #c9f0af
+}
+
+/* End of game notification*/
+.end{
+	display: none;
+	width: 35%;
+	height: 40vh;
+	margin: 30vh auto;
+	text-align: center;
+	background-color: white;
+	color: #2F3636;
+	box-shadow: 0 0 7px #2F3636;
+	border: 3px solid #156B08;
+	border-radius: 20px;
+}
+
+.won .end{
+	display: block;
+}
+
+.loose .end{
+	display: block;
+	color: #240F00
+}
+
+#result{
+	font-size: 3rem;
+	display: block;
+}
